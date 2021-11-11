@@ -1,0 +1,38 @@
+.panHeader {
+  display: flex;
+  justify-content: center;
+  background-color: green;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: center;
+}
+.logoDiv {
+  width: 30%;
+  background-color: yellow;
+  padding: 20px 0px;
+}
+
+.logoImg {
+  width: 100%;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  background-color: indigo;
+  padding-top: 20px;
+}
+
+.navEl {
+  padding-right: 10px;
+}
+.navEl:nth-child(even) {
+  background-color: red;
+}
+
+.NavbarDiv {
+  width: 60%;
+  background-color: brown;
+}
